@@ -16,8 +16,8 @@ int main() {
     int nums[N];
 
     // seed random number generator
-    srand((unsigned)(time(NULL))); // use for development/debugging
-    //srand(2023); // uncomment for submission
+    //srand((unsigned)(time(NULL))); // use for development/debugging
+    srand(2023); // uncomment for submission
 
     // fill the array with random numbers
     fillArray(nums);
